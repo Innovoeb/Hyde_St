@@ -1,0 +1,47 @@
+#Sidebar {
+    background-color: #1E1E1E;
+    color: white;
+    height: 100%;
+    width: 3.5%;
+    display: flex;
+    flex-direction: column;
+    /* extend sidebar to bottom of page */
+    position: fixed;
+
+}
+
+img {
+    height: 60%;
+    width: 60%;
+}
+
+p {
+    font-size: 80%;
+}
+
+#VS1 {
+    margin-top: 100%;
+    margin-bottom: 15%;
+    padding-top: 10%;
+}
+
+#VS2 {
+    padding-top: 5%;
+}
+
+#VS1 p {
+    margin-top: -5%;
+}
+
+#VS2 p {
+    margin-top: -15%;
+}
+
+.VStack:hover {
+    background-color: #FF0000;
+}
+
+.VStack {
+    height: 6%;
+    width: 100%;
+}

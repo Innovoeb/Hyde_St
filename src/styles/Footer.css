@@ -1,0 +1,31 @@
+#Footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    /* align footer to bottom of page */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 9%;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 25%;
+    padding-bottom: 0.4%;
+}
+
+#footer-content p {
+    font-size: 135%;
+    font-weight: bold;
+}
+
+#Copyright {
+    height: 25px;
+    width: 25px;
+}
