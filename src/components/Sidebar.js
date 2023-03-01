@@ -7,7 +7,7 @@ const Sidebar = () => {
     const navigate = useNavigate()
     return ( 
         <div id="Sidebar">
-            <div className="VStack" id='VS1' onClick={() => navigate('/')}>
+            <div className="VStack" id='VS1' onClick={() => navigate('/Hyde_St')}>
                 <img src={home}alt="home" />
                 <p>Home</p>
             </div>

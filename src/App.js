@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Sidebar from './components/Sidebar'
 import Footer from './components/Footer'
@@ -12,7 +12,7 @@ function App() {
         <Sidebar />
         <Footer />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Hyde_St" element={<Home />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
         
