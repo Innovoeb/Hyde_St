@@ -1,5 +1,5 @@
 import './styles/App.css'
-import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Sidebar from './components/Sidebar'
 import Footer from './components/Footer'
 import Home from './components/Home'
@@ -7,17 +7,17 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <div className="App">
         <Sidebar />
         <Footer />
         <Routes>
-          <Route exact path="/Hyde_St" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
         
       </div>
-    </HashRouter>
+    </Router>
   )
 }
 
