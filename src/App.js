@@ -12,7 +12,7 @@ function App() {
         <Sidebar />
         <Footer />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Hyde_St" element={<Home />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
         
